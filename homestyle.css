@@ -29,6 +29,11 @@
     min-width: 400px;
     margin: 4em;
 }
+.box img{
+    height: 250px;
+    width: 250px;
+    padding: 50px 50px 25px;
+}
 .section{
     background: linear-gradient(to top, rgba(32, 58, 76, 1), rgba(32, 58, 76,0.1));
     padding: 2em;

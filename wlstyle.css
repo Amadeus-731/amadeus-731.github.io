@@ -4,10 +4,11 @@ main{
     flex-direction: column;
     align-content: center;
     justify-content: space-evenly;
-    width: 60%;
-    background-color: linear-gradient(rbga 0,0,0,0);
+    width: 70%;
+    /* background-color: linear-gradient(rbga 0,0,0,0); */
     align-self: center;
     margin: auto;
+    /* background-color: rgba(10, 10, 10, .5); */
 }
 main div{
     box-sizing: border-box;
@@ -37,8 +38,9 @@ main img{
 body{
     background-image: url(WLBG.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
     background-attachment: fixed;
     background-position: center;
+    /* background-size: 150vh,90vw; */
+    background-size: cover,90vw;
     background-color: rgb(21, 6, 3);
 }

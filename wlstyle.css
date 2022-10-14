@@ -1,10 +1,44 @@
-
-.main{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 60%;
+    background-color: linear-gradient(rbga 0,0,0,0);
+    align-self: center;
+    margin: auto;
 }
-.main div{
+main div{
     box-sizing: border-box;
-    width: 50%;
+    background: linear-gradient(94.25deg, rgba(56, 33, 28, 0.36) 0%, rgba(56, 33, 28, 0.18) 100%), rgba(213, 213, 213, 0.6);
+    border: 1px solid rgba(42, 20, 22, 0.6);
+    backdrop-filter: blur(15px);
+/* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+}
+main h1{
+ font-family: 'Poppins', sans-serif;
+ color: rgba(233, 177, 177, 1);
+ font-weight: 400;
+ width: 80%;
+ 
+}
+main p{
+    margin: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: rgba(10, 10, 10, 1);
+}
+main img{
+    height: 250px;
+    width: 250px;
+}
+body{
+    background-image: url(WLBG.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgb(21, 6, 3);
 }

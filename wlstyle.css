@@ -37,7 +37,7 @@ main {
   margin-bottom: 15px;
 }
 
-.row.rightimg {
+.row .rightimg {
   flex-wrap: wrap;
 }
 

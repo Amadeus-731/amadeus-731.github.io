@@ -21,12 +21,7 @@ main {
 }
 
 .WLpanel {
-<<<<<<< HEAD
   background: linear-gradient(94.25deg, rgba(56, 33, 28, 0.36) 0%, rgba(56, 33, 28, 0.18) 100%), rgba(213, 213, 213, 0.7);
-=======
-  box-sizing: border-box;
-  background: linear-gradient(94.25deg, rgba(56, 33, 28, 0.205) 0%, rgba(56, 33, 28, 0.18) 100%), rgba(213, 213, 213, 0.45);
->>>>>>> 8c07ef57a1109abfb763d894e51c75af86a466cb
   border: 1px solid rgba(42, 20, 22, 0.6);
   backdrop-filter: blur(15px);
   /* Note: backdrop-filter has minimal browser support */

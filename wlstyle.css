@@ -71,7 +71,7 @@ main h1 {
   font-weight: 400;
   width: 80%;
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 main p {
@@ -111,14 +111,14 @@ header h1 {
   background: linear-gradient(45deg, rgb(227, 193, 252) 25%, rgb(255, 113, 113) 100%);
   font-weight: 400;
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background-clip: text;
 }
 header h2 {
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(45deg, rgb(227, 193, 252) 10%, rgb(255, 113, 113) 100%);
   font-weight: 400;
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 @media screen and (max-width:1000px) {

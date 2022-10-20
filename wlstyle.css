@@ -57,8 +57,6 @@ main {
   float: left;
   width: 33.33333%;
   padding: 20px;
-  background: none;
-  border: none;
 }
 .column-50 {
   float: left;
@@ -69,9 +67,11 @@ main {
 }
 main h1 {
   font-family: 'Poppins', sans-serif;
-  color: rgba(233, 177, 177, 1);
+  background: linear-gradient(165.61deg, rgb(227, 193, 252) 25%, rgb(255, 113, 113) 100%);
   font-weight: 400;
   width: 80%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 main p {
@@ -92,12 +92,14 @@ body {
 }
 header{
   align-self: center;
-  background:linear-gradient(94deg, rgba(77, 77, 77, 0.7) 0%, rgba(142, 142, 142, .14) 100%);
   margin: auto;
   width: 90%;
   text-align: center;
-  border: 2px solid rgba(142, 142, 142, .14);
   border-radius: 2em;
+}
+.WLheader{
+  border: 2px solid rgba(142, 142, 142, .14);
+  background:linear-gradient(94deg, rgba(77, 77, 77, 0.7) 0%, rgba(142, 142, 142, .14) 100%);
 }
 header img{
   max-height: 250px;
@@ -106,14 +108,17 @@ header img{
 }
 header h1 {
   font-family: 'Poppins', sans-serif;
-  color: rgba(233, 177, 177, 1);
-  font-weight: 500;
+  background: linear-gradient(45deg, rgb(227, 193, 252) 25%, rgb(255, 113, 113) 100%);
+  font-weight: 400;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 header h2 {
   font-family: 'Poppins', sans-serif;
-  color: rgba(233, 177, 177, 1);
+  background: linear-gradient(45deg, rgb(227, 193, 252) 10%, rgb(255, 113, 113) 100%);
   font-weight: 400;
-  
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 @media screen and (max-width:1000px) {

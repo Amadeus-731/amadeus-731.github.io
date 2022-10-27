@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+* {
+    box-sizing: border-box;
+  }
 .parallax{
     background-image: url(https://oceanexplorer.noaa.gov/facts/media/explored-hires.jpg);
     background-attachment: fixed;
@@ -7,15 +11,15 @@
     background-size: cover;
     padding: 0;
     margin: 0;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
 }
 .container{
-    align-items: baseline;
-    /* background-color:rgba(32, 58, 76, 0.97) ; */
+    align-items: center;
+    /* background-color:rgba(32, 58, 76, 0.1) ; */
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: fit-content;
+    height: 90vh;
     justify-content: center;
     padding: 0;
     margin: 0;
@@ -53,11 +57,11 @@ a:visited{
     padding: 50px 50px 25px;
 }
 .section{
-    background: linear-gradient(45deg, rgba(32, 58, 76, .5), rgba(32, 58, 76,0.1));
+    /* background: linear-gradient(45deg, rgba(32, 58, 76, .5), rgba(32, 58, 76,0.1)); */
     padding: 2em;
     margin: 0;
     color: rgba(105, 170, 199, 0.96);
-    border: linear-gradient(45deg, rgba(32, 58, 76, .5), rgba(32, 58, 76,0.1)), 2px;
+    /* border: linear-gradient(45deg, rgba(32, 58, 76, .5), rgba(32, 58, 76,0.1)), 2px; */
 }
 .section h1{
     padding: 1;
@@ -67,8 +71,46 @@ a:visited{
 
 .parallax.headerbox{
     display: flex;
-    min-height: 500px;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
+}
 
+.headerdiv{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(30, 30, 30, 0.5);
+    backdrop-filter: blur(15px);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+@keyframes example {
+    from {
+        margin: -1000px;
+        width: 100%;
+    }
+    to {
+        margin: 400px;
+        width: 100%;
+    }
+  }
+.introsection{
+    display: block;
+    margin: 400px;
+    color: rgba(105, 170, 199, 0.96);
+    font-family: "Poppins", sans-serif;
+    animation-name: example;
+    animation-duration: 3s;
+}
+.introsection h1{
+    font-weight: 300;
+    font-size: 42px;
+}
+.introsection p{
+    font-weight: 200;
+    font-size: 26px;
 }

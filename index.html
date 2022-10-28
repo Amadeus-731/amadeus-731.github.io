@@ -15,15 +15,17 @@
                 <p>A UX designer with a passion for diversity, accessability, and education.</p>
                 <br>
             </div>
-             <!-- <div>
-                <button>Dive into my work</button>
-             </div> -->
+             <div>
+                <!-- I need to figure out the JS to get my button to work. -->
+                <!-- <button onclick="scrollToBottom">
+                    Dive into my work</button> -->
+             </div>
          </div>
     </div>
     <div class="section"><h1>UX Projects</h1></div>
-    <div class="container">
-        <div class="box">
-            <a href="Wingluke.html">
+    <div class="container" id="section2">
+        <a href="Wingluke.html">
+        <div class="box">   
             <img src="WingLuke.png" alt="">
             <h2>Wing Luke</h2> 
             <p>Designing a program that incentivizes customer return.</p>
@@ -45,6 +47,13 @@
             </div>
         </a>
     </div>
+
+    <!-- <script>
+        function scrollToBottom() {
+            const element = document.getElementById("section2");
+            element.scrollBottom = element.scrollHeight;
+        }
+    </script> -->
     
 </body>
 </html>

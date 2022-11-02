@@ -31,6 +31,16 @@ main {
   text-align: left;
  
 }
+.abeonapanel {
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(149, 149, 149, 0.5);
+  background:linear-gradient(94deg, rgba(226, 226, 226, 0.3) 0%, rgba(147, 145, 145, 0.2) 100%);
+  /* text-align: left; */
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
 
 .row {
   align-items: center;
@@ -73,7 +83,14 @@ main h1 {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
-
+.abeonamain h1 {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(165.61deg, rgb(186, 90, 255) 25%, rgb(247, 213, 90) 100%);
+  font-weight: 400;
+  width: 80%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 main p {
   margin: 2em;
   font-family: 'Poppins', sans-serif;
@@ -81,7 +98,7 @@ main p {
   color: rgba(10, 10, 10, 1);
 }
 
-body {
+.wlbody {
   background-image: url(WLBG.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -89,6 +106,13 @@ body {
   /* background-size: 150vh,90vw; */
   background-size: cover, 90vw;
   background-color: rgb(21, 6, 3);
+}
+.abeonabody{
+  background-image: url(Abeonabg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover, 100vw;
 }
 header{
   align-self: center;
@@ -100,6 +124,12 @@ header{
 .WLheader{
   border: 2px solid rgba(142, 142, 142, .14);
   background:linear-gradient(94deg, rgba(77, 77, 77, 0.7) 0%, rgba(142, 142, 142, .14) 100%);
+}
+.abeonaheader{
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(149, 149, 149, 0.5);
+  background:linear-gradient(94deg, rgba(226, 226, 226, 0.3) 0%, rgba(147, 145, 145, 0.2) 100%);
 }
 header img{
   max-height: 250px;
@@ -113,17 +143,29 @@ header h1 {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
-header h2 {
+.abeonaheader h1 {
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(45deg, rgb(227, 193, 252) 10%, rgb(255, 113, 113) 100%);
+  background: linear-gradient(165.61deg, rgb(186, 90, 255) 25%, rgb(247, 213, 90) 100%);
   font-weight: 400;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+}
+.abeonaheader h2 {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(165.61deg, rgb(186, 90, 255) 25%, rgb(247, 213, 90) 100%);
+  font-weight: 400;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin: 15px;
 }
 
 @media screen and (max-width:1000px) {
 
   main h1 {
+    width: 100%;
+    text-align: center;
+  }
+  .abeonamain{
     width: 100%;
     text-align: center;
   }

@@ -17,6 +17,7 @@ main {
   /* background-color: linear-gradient(rbga 0,0,0,0); */
   align-self: center;
   margin: auto;
+  padding-bottom: 20vh;
   /* background-color: rgba(10, 10, 10, .5); */
 }
 
@@ -137,6 +138,13 @@ header img{
   border-radius: 2em;
 }
 header h1 {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(45deg, rgb(227, 193, 252) 25%, rgb(255, 113, 113) 100%);
+  font-weight: 400;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+header h2 {
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(45deg, rgb(227, 193, 252) 25%, rgb(255, 113, 113) 100%);
   font-weight: 400;

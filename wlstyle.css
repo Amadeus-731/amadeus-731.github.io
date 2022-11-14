@@ -42,7 +42,16 @@ main {
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
 }
-
+.wpzmain div{
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(149, 149, 149, 0.5);
+  background:linear-gradient(94deg, rgba(226, 226, 226, 0.3) 0%, rgba(147, 145, 145, 0.2) 100%);
+  /* text-align: left; */
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
 .row {
   align-items: center;
   background: none;
@@ -115,6 +124,14 @@ main p {
   background-position: center;
   background-size: cover, 100vw;
 }
+.wpzbody{
+  /* background-image: url(Abeonabg.jpg); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover, 100vw;
+  background-color: rgb(2, 73, 32);
+}
 header{
   align-self: center;
   margin: auto;
@@ -127,6 +144,13 @@ header{
   background:linear-gradient(94deg, rgba(77, 77, 77, 0.7) 0%, rgba(142, 142, 142, .14) 100%);
 }
 .abeonaheader{
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(149, 149, 149, 0.5);
+  background:linear-gradient(94deg, rgba(226, 226, 226, 0.3) 0%, rgba(147, 145, 145, 0.2) 100%);
+}
+
+.wpzheader{
   border-width: 2px;
   border-style: solid;
   border-color: rgba(149, 149, 149, 0.5);
@@ -166,7 +190,21 @@ header h2 {
   -webkit-background-clip: text;
   margin: 15px;
 }
-
+.wpzheader h1 {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(165.61deg, rgb(186, 90, 255) 25%, rgb(247, 213, 90) 100%);
+  font-weight: 400;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.wpzheader h2 {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(165.61deg, rgb(186, 90, 255) 25%, rgb(247, 213, 90) 100%);
+  font-weight: 400;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin: 15px;
+}
 @media screen and (max-width:1000px) {
 
   main h1 {
